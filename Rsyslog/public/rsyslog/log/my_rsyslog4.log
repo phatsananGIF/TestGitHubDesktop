@@ -1,0 +1,200 @@
+2018-02-28T11:50:16+07:00 10.148.189.77 pluto[876]: "sim1" #6: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+2018-02-28T11:50:16+07:00 10.148.189.77 pluto[876]: "sim1" #6: STATE_MAIN_I3: sent MI3, expecting MR3
+2018-02-28T11:50:17+07:00 10.148.189.77 pluto[876]: "sim1" #6: discarding duplicate packet; already STATE_MAIN_I3
+2018-02-28T11:50:17+07:00 10.148.189.77 pluto[876]: "sim1" #6: Main mode peer ID is ID_IPV4_ADDR: '172.30.232.241'
+2018-02-28T11:50:17+07:00 10.148.189.77 pluto[876]: "sim1" #6: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+2018-02-28T11:50:17+07:00 10.148.189.77 pluto[876]: "sim1" #6: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=oakley_3des_cbc_192 prf=oakley_md5 group=modp1024}
+2018-02-20T11:49:38+07:00 10.5.81.69 kernel: gcom[2157]: segfault at 8054000 ip b76ea53b sp bfc1f534 error 6 in libuClibc-0.9.30.1.so[b76c2000+46000]
+2018-02-28T11:42:22+07:00 10.5.80.177 odhcpd[922]: Using a RA lifetime of 0 seconds on br-lan
+2018-02-28T19:04:24+07:00 10.5.83.211 : 15[KNL] creating delete job for CHILD_SA ESP/0xc83694d1/10.5.83.211
+2018-02-28T19:04:24+07:00 10.5.83.211 : 15[IKE] sending DELETE for ESP CHILD_SA with SPI c83694d1
+2018-02-28T19:04:24+07:00 10.5.83.211 : 15[IKE] closing expired CHILD_SA sim1_c1{191} with SPIs c83694d1_i ee7011f8_o and TS 10.5.83.211/32 === 172.30.228.51/32
+2018-02-28T19:04:24+07:00 10.5.83.211 : 15[ENC] generating INFORMATIONAL_V1 request 1922135395 [ HASH D ]
+2018-02-28T19:04:24+07:00 10.5.83.211 : 15[IKE] closing expired CHILD_SA sim1_c1{191} with SPIs c83694d1_i ee7011f8_o and TS 10.5.83.211/32 === 172.30.228.51/32
+2018-02-28T19:04:24+07:00 10.5.83.211 : 15[NET] sending packet: from 10.5.83.211[500] to 172.30.228.51[500] (68 bytes)
+2018-02-28T19:04:24+07:00 10.5.83.211 : 08[KNL] creating delete job for CHILD_SA ESP/0xee7011f8/172.30.228.51
+2018-02-28T19:04:24+07:00 10.5.83.211 : 08[JOB] CHILD_SA ESP/0xee7011f8/172.30.228.51 not found for delete
+2018-02-28T19:04:24+07:00 10.5.83.211 : 05[NET] received packet: from 172.30.228.51[500] to 10.5.83.211[500] (68 bytes)
+2018-02-28T19:04:24+07:00 10.5.83.211 : 05[ENC] parsed INFORMATIONAL_V1 request 2248897634 [ HASH D ]
+2018-02-28T19:04:24+07:00 10.5.83.211 : 05[IKE] received DELETE for ESP CHILD_SA with SPI ee7011f8
+2018-02-28T19:04:24+07:00 10.5.83.211 : 05[IKE] CHILD_SA not found, ignored
+2018-02-28T19:08:32+07:00 10.5.80.132 odhcpd[945]: Using a RA lifetime of 0 seconds on br-lan
+2018-02-28T11:50:19+07:00 10.156.255.191 kernel: gcom[3103]: segfault at 8054000 ip b777453b sp bffc75e4 error 6 in libuClibc-0.9.30.1.so[b774c000+46000]
+2018-02-28T11:50:18+07:00 10.148.191.157 kernel: gcom[3633]: segfault at 8054000 ip b76d353b sp bfb7a854 error 6 in libuClibc-0.9.30.1.so[b76ab000+46000]
+2018-02-28T11:50:20+07:00 10.228.89.238 pluto[1534]: "sim2" #655: initiating Main Mode to replace #654
+2018-02-28T11:50:20+07:00 10.228.89.238 pluto[1534]: "sim2" #655: STATE_MAIN_I2: sent MI2, expecting MR2
+2018-02-28T11:50:20+07:00 10.228.89.238 pluto[1534]: "sim2" #655: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: received Vendor ID payload [Cisco-Unity]
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: received Vendor ID payload [Dead Peer Detection]
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: ignoring unknown Vendor ID payload [bde6a8307164b2fbd2345e6d8d1fb586]
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: received Vendor ID payload [XAUTH]
+2018-02-28T11:50:20+07:00 10.148.190.51 kernel: gcom[3268]: segfault at 8054000 ip b778953b sp bf983a94 error 6 in libuClibc-0.9.30.1.so[b7761000+46000]
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: STATE_MAIN_I3: sent MI3, expecting MR3
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: Main mode peer ID is ID_IPV4_ADDR: '10.0.24.49'
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+2018-02-28T11:50:21+07:00 10.228.89.238 pluto[1534]: "sim2" #655: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=oakley_3des_cbc_192 prf=oakley_md5 group=modp1024}
+2018-02-04T11:50:18+07:00 10.148.190.221 ipsec_setup: ...Openswan IPsec stopped
+2018-02-04T11:50:18+07:00 10.148.190.221 ipsec_setup: Stopping Openswan IPsec...
+2018-02-04T11:50:18+07:00 10.148.190.221 ipsec_setup: stop ordered, but IPsec appears to be already stopped!
+2018-02-04T11:50:18+07:00 10.148.190.221 ipsec_setup: doing cleanup anyway...
+2018-02-28T11:43:11+07:00 10.5.83.33 odhcpd[921]: Using a RA lifetime of 0 seconds on br-lan
+2018-02-28T11:50:21+07:00 10.148.189.104 pluto[3676]: "sim1" #52: initiating Main Mode to replace #51
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: STATE_MAIN_I2: sent MI2, expecting MR2
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: received Vendor ID payload [Cisco-Unity]
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: received Vendor ID payload [Dead Peer Detection]
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: ignoring unknown Vendor ID payload [cf5fe94233315135a1fef855c37843b6]
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: received Vendor ID payload [XAUTH]
+2018-02-28T11:50:22+07:00 10.5.95.17 kernel: gcom[2028]: segfault at 8054000 ip b771d53b sp bfda0844 error 6 in libuClibc-0.9.30.1.so[b76f5000+46000]
+2018-02-28T11:50:22+07:00 10.228.89.47 pluto[707]: "sim2" #1383: received Delete SA payload: deleting ISAKMP State #1383
+2018-02-28T11:50:22+07:00 10.228.89.47 pluto[707]: packet from 10.0.24.49:500: received and ignored informational message
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: STATE_MAIN_I3: sent MI3, expecting MR3
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: Main mode peer ID is ID_IPV4_ADDR: '172.30.232.241'
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+2018-02-28T11:50:22+07:00 10.148.189.104 pluto[3676]: "sim1" #52: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=oakley_3des_cbc_192 prf=oakley_md5 group=modp1024}
+2018-02-04T11:50:21+07:00 10.148.190.221 kernel: NET: Registered protocol family 10
+2018-02-04T11:50:21+07:00 10.148.190.221 kernel: lo: Disabled Privacy Extensions
+2018-02-28T11:50:24+07:00 10.228.91.98 pluto[2237]: "sim2" #641: initiating Main Mode to replace #640
+2018-02-28T11:50:24+07:00 10.11.227.168 pluto[2083]: "sim2" #90: initiating Quick Mode PSK+ENCRYPT+PFS+UP+IKEv2ALLOW+SAREFTRACK to replace #79 {using isakmp#89 msgid:0a44c217 proposal=3DES(3)_192-MD5(1)_128 pfsgroup=OAKLEY_GROUP_MODP1024}
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: STATE_MAIN_I2: sent MI2, expecting MR2
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+2018-02-28T11:50:24+07:00 10.11.227.168 pluto[2083]: "sim2" #90: ignoring informational payload, type IPSEC_RESPONDER_LIFETIME msgid=0a44c217
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: received Vendor ID payload [Cisco-Unity]
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: received Vendor ID payload [Dead Peer Detection]
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: ignoring unknown Vendor ID payload [61f1ed4f5c656b59282234416928894f]
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: received Vendor ID payload [XAUTH]
+2018-02-28T11:50:25+07:00 10.5.82.35 kernel: gcom[3519]: segfault at 8054000 ip b778853b sp bf832aa4 error 6 in libuClibc-0.9.30.1.so[b7760000+46000]
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: STATE_MAIN_I3: sent MI3, expecting MR3
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: Main mode peer ID is ID_IPV4_ADDR: '10.0.24.49'
+2018-02-28T11:50:25+07:00 10.11.227.168 pluto[2083]: "sim2" #90: transition from state STATE_QUICK_I1 to state STATE_QUICK_I2
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+2018-02-28T11:50:25+07:00 10.228.91.98 pluto[2237]: "sim2" #641: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=oakley_3des_cbc_192 prf=oakley_md5 group=modp1024}
+2018-02-28T11:50:25+07:00 10.11.227.168 pluto[2083]: "sim2" #90: STATE_QUICK_I2: sent QI2, IPsec SA established transport mode {ESP=>0x53d1fa9f <0xbe577000 xfrm=3DES_0-HMAC_MD5 NATOA=none NATD=none DPD=none}
+2018-02-28T11:50:26+07:00 10.11.227.192 pluto[795]: "sim2" #4: received Delete SA payload: deleting ISAKMP State #4
+2018-02-28T11:50:26+07:00 10.11.227.192 pluto[795]: packet from 10.0.24.49:500: received and ignored informational message
+2018-02-28T11:43:22+07:00 10.5.81.163 : 09[ENC] generating INFORMATIONAL_V1 request 3585370328 [ HASH D ]
+2018-02-28T11:43:22+07:00 10.5.81.163 : 09[NET] sending packet: from 10.5.81.163[500] to 172.30.228.51[500] (68 bytes)
+2018-02-28T11:43:22+07:00 10.5.81.163 : 09[IKE] sending DELETE for ESP CHILD_SA with SPI c621551e
+2018-02-28T11:43:22+07:00 10.5.81.163 : 09[IKE] closing expired CHILD_SA sim1_c1{411} with SPIs c621551e_i 8aea6d66_o and TS 10.5.81.163/32 === 172.30.228.51/32
+2018-02-28T11:43:22+07:00 10.5.81.163 : 09[KNL] creating delete job for CHILD_SA ESP/0xc621551e/10.5.81.163
+2018-02-28T11:43:22+07:00 10.5.81.163 : 09[IKE] closing expired CHILD_SA sim1_c1{411} with SPIs c621551e_i 8aea6d66_o and TS 10.5.81.163/32 === 172.30.228.51/32
+2018-02-28T11:43:22+07:00 10.5.81.163 : 14[KNL] creating delete job for CHILD_SA ESP/0x8aea6d66/172.30.228.51
+2018-02-28T11:43:22+07:00 10.5.81.163 : 14[JOB] CHILD_SA ESP/0x8aea6d66/172.30.228.51 not found for delete
+2018-02-28T11:43:22+07:00 10.5.81.163 : 07[NET] received packet: from 172.30.228.51[500] to 10.5.81.163[500] (68 bytes)
+2018-02-28T11:43:22+07:00 10.5.81.163 : 07[ENC] parsed INFORMATIONAL_V1 request 3345850167 [ HASH D ]
+2018-02-28T11:43:22+07:00 10.5.81.163 : 07[IKE] received DELETE for ESP CHILD_SA with SPI 8aea6d66
+2018-02-28T11:43:22+07:00 10.5.81.163 : 07[IKE] CHILD_SA not found, ignored
+2018-02-28T12:02:24+07:00 10.5.83.180 odhcpd[943]: Using a RA lifetime of 0 seconds on br-lan
+2018-02-28T11:50:27+07:00 10.156.252.152 kernel: gcom[739]: segfault at 8054000 ip b772953b sp bfd9cc84 error 6 in libuClibc-0.9.30.1.so[b7701000+46000]
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: klips_info:ipsec_init: KLIPS startup, Openswan KLIPS IPsec stack version: 2.6.37
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: NET: Registered protocol family 15
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: registered KLIPS /proc/sys/net
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: klips_info:ipsec_alg_init: KLIPS alg v=0.8.1-0 (EALG_MAX=255, AALG_MAX=251)
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: klips_info:ipsec_alg_init: calling ipsec_alg_static_init()
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: ipsec_aes_init(alg_type=15 alg_id=12 name=aes): ret=0
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: ipsec_aes_init(alg_type=14 alg_id=9 name=aes_mac): ret=0
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: ipsec_3des_init(alg_type=15 alg_id=3 name=3des): ret=0
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: KLIPS cryptoapi interface: alg_type=15 alg_id=12 name=cbc(aes) keyminbits=128 keymaxbits=256, found(0)
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: KLIPS: lookup for ciphername=cbc(twofish): not found 
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: KLIPS: lookup for ciphername=cbc(serpent): not found 
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: KLIPS: lookup for ciphername=cbc(cast5): not found 
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: KLIPS: lookup for ciphername=cbc(blowfish): not found 
+2018-02-04T11:50:25+07:00 10.148.190.221 kernel: KLIPS cryptoapi interface: alg_type=15 alg_id=3 name=cbc(des3_ede) keyminbits=192 keymaxbits=192, found(0)
+2018-02-28T11:50:28+07:00 10.148.189.83 pluto[334]: "sim1" #168: initiating Main Mode to replace #167
+2018-02-28T11:50:29+07:00 10.228.93.62 pluto[2010]: "sim2" #681: received Delete SA payload: deleting ISAKMP State #681
+2018-02-28T11:50:29+07:00 10.228.93.62 pluto[2010]: packet from 10.0.24.49:500: received and ignored informational message
+2018-02-04T11:50:27+07:00 10.148.190.221 ipsec_setup: Using KLIPS/legacy stack
+2018-02-28T11:50:30+07:00 10.11.227.204 pluto[1896]: "sim2" #209: received Delete SA payload: deleting ISAKMP State #209
+2018-02-28T11:50:30+07:00 10.11.227.204 pluto[1896]: packet from 10.0.24.49:500: received and ignored informational message
+2018-02-28T11:50:29+07:00 10.148.189.83 pluto[334]: "sim1" #168: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+2018-02-28T11:50:29+07:00 10.148.189.83 pluto[334]: "sim1" #168: STATE_MAIN_I2: sent MI2, expecting MR2
+2018-02-28T11:50:30+07:00 10.148.189.83 pluto[334]: "sim1" #168: received Vendor ID payload [Cisco-Unity]
+2018-02-28T11:50:30+07:00 10.148.189.83 pluto[334]: "sim1" #168: received Vendor ID payload [Dead Peer Detection]
+2018-02-28T11:50:30+07:00 10.148.189.83 pluto[334]: "sim1" #168: ignoring unknown Vendor ID payload [73b4d7e846b8de1910bb1334eb219ed7]
+2018-02-28T11:50:30+07:00 10.148.189.83 pluto[334]: "sim1" #168: received Vendor ID payload [XAUTH]
+2018-02-28T11:50:30+07:00 10.148.189.83 pluto[334]: "sim1" #168: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+2018-02-28T11:50:30+07:00 10.148.189.83 pluto[334]: "sim1" #168: STATE_MAIN_I3: sent MI3, expecting MR3
+2018-02-28T11:50:30+07:00 10.148.189.83 pluto[334]: "sim1" #168: discarding duplicate packet; already STATE_MAIN_I3
+2018-02-28T11:50:31+07:00 10.148.189.83 pluto[334]: "sim1" #168: Main mode peer ID is ID_IPV4_ADDR: '172.30.232.241'
+2018-02-28T11:50:31+07:00 10.148.189.83 pluto[334]: "sim1" #168: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+2018-02-28T11:50:31+07:00 10.148.189.83 pluto[334]: "sim1" #168: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=oakley_3des_cbc_192 prf=oakley_md5 group=modp1024}
+2018-02-04T11:50:29+07:00 10.148.190.221 ipsec_setup: KLIPS debug `none'
+2018-02-28T11:50:31+07:00 10.156.253.76 kernel: gcom[406]: segfault at 8054000 ip b779653b sp bfd6c0b4 error 6 in libuClibc-0.9.30.1.so[b776e000+46000]
+2018-02-28T11:50:33+07:00 10.11.224.110 pluto[2372]: "sim2" #304: initiating Main Mode to replace #303
+2018-02-28T11:50:33+07:00 10.11.224.110 pluto[2372]: "sim2" #304: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+2018-02-28T11:50:33+07:00 10.11.224.110 pluto[2372]: "sim2" #304: STATE_MAIN_I2: sent MI2, expecting MR2
+2018-02-28T11:50:33+07:00 10.11.224.110 pluto[2372]: "sim2" #304: received Vendor ID payload [Cisco-Unity]
+2018-02-28T11:50:33+07:00 10.11.224.110 pluto[2372]: "sim2" #304: received Vendor ID payload [Dead Peer Detection]
+2018-02-28T11:50:33+07:00 10.11.224.110 pluto[2372]: "sim2" #304: ignoring unknown Vendor ID payload [380d3d3e3393b08526b447d0974c6be4]
+2018-02-28T11:50:33+07:00 10.11.224.110 pluto[2372]: "sim2" #304: received Vendor ID payload [XAUTH]
+2018-02-28T11:50:34+07:00 10.11.224.110 pluto[2372]: "sim2" #304: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+2018-02-28T11:50:34+07:00 10.11.224.110 pluto[2372]: "sim2" #304: STATE_MAIN_I3: sent MI3, expecting MR3
+2018-02-28T11:50:34+07:00 10.11.224.110 pluto[2372]: "sim2" #304: Main mode peer ID is ID_IPV4_ADDR: '10.0.24.49'
+2018-02-28T11:50:34+07:00 10.11.224.110 pluto[2372]: "sim2" #304: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+2018-02-28T11:50:34+07:00 10.11.224.110 pluto[2372]: "sim2" #304: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=oakley_3des_cbc_192 prf=oakley_md5 group=modp1024}
+2018-02-04T11:50:31+07:00 10.148.190.221 kernel: eth0: no IPv6 routers present
+2018-02-04T11:50:31+07:00 10.148.190.221 ipsec_setup: KLIPS ipsec0 on ppp0 10.148.190.221/ pointtopoint 10.64.64.64/32 mtu 1500
+2018-02-04T11:50:32+07:00 10.148.190.221 ipsec__plutorun: Starting Pluto subsystem...
+2018-02-04T11:50:32+07:00 10.148.190.221 ipsec_setup: ...Openswan IPsec started
+2018-02-28T11:50:35+07:00 10.148.190.221 ipsec_setup: Starting Openswan IPsec 2.6.37...
+2018-02-28T11:50:35+07:00 10.148.190.221 ipsec_setup: ipsec0 -> NULL mtu=0(0) -> 0
+2018-02-28T12:02:33+07:00 10.5.83.180 netifd: wan (1871): udhcpc: sending renew
+2018-02-28T12:02:33+07:00 10.5.83.180 netifd: wan (1871): udhcpc: lease of 10.5.83.180 obtained, lease time 7200
+2018-02-28T11:50:36+07:00 10.148.191.173 kernel: gcom[3192]: segfault at 8054000 ip b77ae53b sp bfb2f264 error 6 in libuClibc-0.9.30.1.so[b7786000+46000]
+2018-02-28T11:50:37+07:00 10.148.191.211 kernel: gcom[1779]: segfault at 8054000 ip b779e53b sp bfa013a4 error 6 in libuClibc-0.9.30.1.so[b7776000+46000]
+2018-02-28T11:42:37+07:00 10.5.80.134 odhcpd[943]: Using a RA lifetime of 0 seconds on br-lan
+2018-02-28T11:50:38+07:00 10.148.189.28 pluto[3938]: "sim1" #65: received Delete SA payload: deleting ISAKMP State #65
+2018-02-28T11:50:38+07:00 10.148.189.28 pluto[3938]: packet from 172.30.232.241:500: received and ignored informational message
+2018-02-28T11:50:39+07:00 10.148.189.200 pluto[2102]: "sim1" #35: initiating Main Mode to replace #34
+2018-02-28T11:50:40+07:00 10.148.190.111 kernel: gcom[1769]: segfault at 8054000 ip b76db53b sp bfeeda64 error 6 in libuClibc-0.9.30.1.so[b76b3000+46000]
+2018-02-28T11:50:40+07:00 10.148.189.200 pluto[2102]: "sim1" #35: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+2018-02-28T11:50:40+07:00 10.148.189.200 pluto[2102]: "sim1" #35: STATE_MAIN_I2: sent MI2, expecting MR2
+2018-02-28T11:42:48+07:00 10.5.80.111 odhcpd[922]: Using a RA lifetime of 0 seconds on br-lan
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: received Vendor ID payload [Cisco-Unity]
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: received Vendor ID payload [Dead Peer Detection]
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: ignoring unknown Vendor ID payload [b9efe524614483bc5811ea0a6ed30cff]
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: received Vendor ID payload [XAUTH]
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: discarding packet received during asynchronous work (DNS or crypto) in STATE_MAIN_I2
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: transition from state STATE_MAIN_I2 to state STATE_MAIN_I3
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: STATE_MAIN_I3: sent MI3, expecting MR3
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: Main mode peer ID is ID_IPV4_ADDR: '172.30.232.241'
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: transition from state STATE_MAIN_I3 to state STATE_MAIN_I4
+2018-02-28T11:50:41+07:00 10.148.189.200 pluto[2102]: "sim1" #35: STATE_MAIN_I4: ISAKMP SA established {auth=OAKLEY_PRESHARED_KEY cipher=oakley_3des_cbc_192 prf=oakley_md5 group=modp1024}
+2018-02-28T11:50:41+07:00 10.148.190.221 ipsec__plutorun: adjusting ipsec.d to /etc/ipsec.d
+2018-02-28T11:50:41+07:00 10.148.190.221 syslog: adjusting ipsec.d to /etc/ipsec.d
+2018-02-28T11:50:41+07:00 10.148.190.221 pluto[2096]: LEAK_DETECTIVE support [disabled]
+2018-02-28T11:50:41+07:00 10.148.190.221 pluto[2096]: OCF support for IKE [disabled]
+2018-02-28T11:50:41+07:00 10.148.190.221 pluto[2096]: SAref support [disabled]: Protocol not available
+2018-02-28T11:50:41+07:00 10.148.149.45 kernel: gcom[1665]: segfault at 8054000 ip b775d53b sp bfcde444 error 6 in libuClibc-0.9.30.1.so[b7735000+46000]
+2018-02-28T11:50:41+07:00 10.148.190.221 pluto[2096]: SAbind support [disabled]: Protocol not available
+2018-02-28T11:50:41+07:00 10.148.190.221 pluto[2096]: NSS support [disabled]
+2018-02-28T11:50:41+07:00 10.148.190.221 pluto[2096]: HAVE_STATSD notification support not compiled in
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: Setting NAT-Traversal port-4500 floating to off
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]:    port floating activation criteria nat_t=0/port_float=1
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]:    NAT-Traversal support  [disabled]
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: using /dev/urandom as source of random entropy
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: ike_alg_register_enc(): Activating OAKLEY_AES_CBC: Ok (ret=0)
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: starting up 1 cryptographic helpers
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: started helper pid=2280 (fd:6)
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2280]: using /dev/urandom as source of random entropy
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: Using KLIPS IPsec interface code on 2.6.32.20
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: Changed path to directory '/etc/ipsec.d/cacerts'
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: Changed path to directory '/etc/ipsec.d/aacerts'
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: Changed path to directory '/etc/ipsec.d/ocspcerts'
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: Changing to directory '/etc/ipsec.d/crls'
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]:   Warning: empty directory
+2018-02-28T11:50:42+07:00 10.148.190.221 pluto[2096]: added connection description "sim1"
+2018-02-28T11:50:42+07:00 10.148.190.221 ipsec__plutorun: 002 added connection description "sim1"
+2018-02-28T11:50:42+07:00 10.148.190.221 ipsec__plutorun: ignoring invalid defaultnexthop: illegal (non-DNS-name) character in name
+2018-02-28T11:50:43+07:00 10.148.190.221 pluto[2096]: listening for IKE messages
+2018-02-28T11:50:43+07:00 10.148.190.221 pluto[2096]: adding interface ipsec0/ppp0 10.148.190.221:500
+2018-02-28T11:50:43+07:00 10.148.190.221 pluto[2096]: loading secrets from "/etc/ipsec.secrets"
+2018-02-28T11:50:43+07:00 10.5.93.114 pluto[2797]: "sim1" #141: initiating Main Mode to replace #140
+2018-02-28T11:50:43+07:00 10.148.190.117 kernel: gcom[3653]: segfault at 8054000 ip b771353b sp bfdb0c24 error 6 in libuClibc-0.9.30.1.so[b76eb000+46000]
+2018-02-28T11:50:44+07:00 10.148.190.221 pluto[2096]: "sim1" #1: initiating Main Mode
+2018-02-28T11:50:44+07:00 10.148.190.221 ipsec__plutorun: 104 "sim1" #1: STATE_MAIN_I1: initiate
+2018-02-28T11:50:44+07:00 10.5.93.114 pluto[2797]: "sim1" #141: transition from state STATE_MAIN_I1 to state STATE_MAIN_I2
+2018-02-28T11:50:44+07:00 10.5.93.114 pluto[2797]: "sim1" #141: STATE_MAIN_I2: sent MI2, expecting MR2

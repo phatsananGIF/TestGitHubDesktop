@@ -1,0 +1,3 @@
+2018-02-28T12:06:41+07:00 10.5.81.30 odhcpd[941]: Using a RA lifetime of 0 seconds on br-lan
+2018-02-28T11:42:28+07:00 10.5.83.225 : 06[KNL] creating rekey job for CHILD_SA ESP/0xc0ac36ff/10.5.83.225
+2018-02-04T11:50:10+07:00 10.156.255.237 pluto[1890]: "sim1" #1: initiating Main Mode
